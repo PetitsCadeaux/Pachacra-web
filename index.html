@@ -7,6 +7,13 @@
 <meta name="description" content="Pachacra Studio diseña y construye software a medida: logística, clientes, cobranzas, facturación electrónica y ventas. / Custom software for your business.">
 <meta property="og:title" content="Pachacra Studio">
 <meta property="og:description" content="Software a medida para ordenar tu operación.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.pachacra.com/">
+<meta property="og:image" content="https://www.pachacra.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.pachacra.com/og.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -366,8 +373,8 @@ const dict = {
         howEyebrow: "Proceso", howTitle: "Cómo trabajamos",
         s1t: "Conversamos", s1d: "Entendemos cómo trabajás hoy y qué te hace perder tiempo.",
         s2t: "Prototipamos", s2d: "Te mostramos una versión navegable antes de construir todo.",
-        s3t: "Ponemos en marcha", s3d: "Cargamos tus datos, capacitamos a tu equipo y arrancamos.",
-        s4t: "Te acompañamos", s4d: "Soporte y mejoras a medida que tu negocio crece.",
+        s3t: "Ponemos en marcha", s3d: "Tu sistema queda funcionando en tu propia dirección de Pachacra. Cargamos tus datos y capacitamos a tu equipo.",
+        s4t: "Te acompañamos", s4d: "Seguimos mejorándolo con vos: nuevas funciones, mantenimiento y soporte.",
         aboutEyebrow: "Quiénes somos", aboutTitle: "Nacimos entre dos tierras.",
         aboutP1: "El nombre Pachacra mezcla dos orígenes: pacha, que en quechua y aymara es tierra, mundo y tiempo; y chacra, el campo donde se trabaja.",
         aboutP2: "Construimos y usamos nuestras propias aplicaciones todos los días en distribución y producción de alimentos. Por eso hacemos software concreto, con los pies en la tierra, pensado para que tu negocio funcione mejor.",
@@ -418,8 +425,8 @@ const dict = {
         howEyebrow: "Process", howTitle: "How we work",
         s1t: "We talk", s1d: "We learn how you work today and what costs you time.",
         s2t: "We prototype", s2d: "You see a clickable version before we build everything.",
-        s3t: "We launch", s3d: "We load your data, train your team and go live.",
-        s4t: "We stay with you", s4d: "Support and improvements as your business grows.",
+        s3t: "We launch", s3d: "Your system goes live at your own Pachacra address. We load your data and train your team.",
+        s4t: "We stay with you", s4d: "We keep improving it with you: new features, maintenance and support.",
         aboutEyebrow: "About us", aboutTitle: "Born between two lands.",
         aboutP1: "The name Pachacra blends two origins: pacha, which in Quechua and Aymara means earth, world and time; and chacra, the farm field where work gets done.",
         aboutP2: "We build and use our own applications every day in food distribution and production. That's why we make down-to-earth, practical software designed to help your business run better.",
@@ -453,5 +460,6 @@ let initial = 'es';
 try { initial = localStorage.getItem('lang') || ((navigator.language||'es').slice(0,2) === 'en' ? 'en' : 'es'); } catch(e) {}
 setLang(initial);
 </script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
